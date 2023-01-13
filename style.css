@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #2874f0;
+    height: max-content;
+    display: inline-table;
+    width: 100%;
+}
+
+.img {
+    /* display: flex; */
+    margin-left: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+body {
+    margin: 0;
+}
+
+.search-box {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu {
+    display: table-cell;
+    margin-left: 50px;
+}
+
+div {
+    display: block;
+}
+
+.form-inline {
+    margin: 0;
+}
+
+.btncolor {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.loginbtn {
+    color: #2874f0;
+    width: 170px;
+    font-size: large;
+    font-weight:500 ;
+}
