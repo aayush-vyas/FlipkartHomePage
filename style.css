@@ -78,4 +78,43 @@ nav div{
 .cmn a{
     text-decoration: none;
 }
-/*  */
+
+nav{
+    position: fixed;
+    top : 0%;
+    width:100%;
+}
+
+/* -----------------------------Product Navbar ----------------------------- */
+.topProductNavbar{
+    height:150px;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.topProductNavbar_Nav{
+    width:80px;
+    height : 112px;
+    margin-top: 50px;
+    
+}
+
+
+.topProductNavbar_Nav img{
+    width:64px;
+    height:64px;
+}
+
+.topProductNavbar_Nav p{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.topProductNavbar_Nav:hover p{
+    color :#2874f0;
+    cursor:pointer;
+}
+
