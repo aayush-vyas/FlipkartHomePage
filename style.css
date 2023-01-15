@@ -1,51 +1,81 @@
-.navbar {
+/* @import 'https://fonts.googleapis.com/'  */
+
+*{
+    padding: 0;
+    margin : 0;
+
+}
+
+nav{
     background-color: #2874f0;
-    height: max-content;
-    display: inline-table;
-    width: 100%;
-}
-
-.img {
-    /* display: flex; */
-    margin-left: 500px;
     justify-content: center;
+    display:flex;
+    padding : 10px 0px;
+    height: 50px;
     align-items: center;
-    margin-top: 20px;
-
 }
 
-body {
-    margin: 0;
-}
-
-.search-box {
-    justify-content: center;
-    align-items: center;
-
-}
-
-.menu {
-    display: table-cell;
-    margin-left: 50px;
-}
-
-div {
-    display: block;
-}
-
-.form-inline {
-    margin: 0;
-}
-
-.btncolor {
-    color: white;
-    font-size: 25px;
+.plusColor{
+    color :#ffe500; 
+    font-size: 11px;
+    margin-top:-1px;
+    margin-right:2px;
     font-weight: 500;
 }
 
-.loginbtn {
-    color: #2874f0;
-    width: 170px;
-    font-size: large;
-    font-weight:500 ;
+.navlogo p{
+    color :white;
+    font-style: italic;
+    font-weight: 400;
+    margin-top:-5px;
+    font-size: small;
 }
+.diamond{
+
+}
+
+.navlogo{
+    margin-top : 15px;
+}
+
+input::placeholder{
+    font-size: smaller;
+
+}
+
+input:focus{
+    outline:none;
+}
+
+input{ 
+    padding-left:10px;
+   
+}
+
+div .loginbtn{
+    background-color: white;
+    color:#2874f0;
+    font-weight: 500;
+    border-radius: 2px;
+    border-color: transparent;
+    padding :3px 35px;
+    text-decoration: none;
+
+}
+
+nav div{
+    margin-left: 20px;
+}
+
+
+.cmn span{
+    color:white;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .1px;
+
+}
+.cmn a{
+    text-decoration: none;
+}
+/*  */
