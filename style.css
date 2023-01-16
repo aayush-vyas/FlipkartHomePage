@@ -1,93 +1,93 @@
 /* @import 'https://fonts.googleapis.com/'  */
 
-*{
+* {
     padding: 0;
-    margin : 0;
+    margin: 0;
 
 }
 
-nav{
+nav {
     background-color: #2874f0;
     justify-content: center;
-    display:flex;
-    padding : 10px 0px;
+    display: flex;
+    padding: 10px 0px;
     height: 50px;
     align-items: center;
 }
 
-.plusColor{
-    color :#ffe500; 
+.plusColor {
+    color: #ffe500;
     font-size: 11px;
-    margin-top:-1px;
-    margin-right:2px;
+    margin-top: -1px;
+    margin-right: 2px;
     font-weight: 500;
 }
 
-.navlogo p{
-    color :white;
+.navlogo p {
+    color: white;
     font-style: italic;
     font-weight: 400;
-    margin-top:-5px;
+    margin-top: -5px;
     font-size: small;
 }
-.diamond{
 
+.diamond {}
+
+.navlogo {
+    margin-top: 15px;
 }
 
-.navlogo{
-    margin-top : 15px;
-}
-
-input::placeholder{
+input::placeholder {
     font-size: smaller;
 
 }
 
-input:focus{
-    outline:none;
+input:focus {
+    outline: none;
 }
 
-input{ 
-    padding-left:10px;
-   
+input {
+    padding-left: 10px;
+
 }
 
-div .loginbtn{
+div .loginbtn {
     background-color: white;
-    color:#2874f0;
+    color: #2874f0;
     font-weight: 500;
     border-radius: 2px;
     border-color: transparent;
-    padding :3px 35px;
+    padding: 3px 35px;
     text-decoration: none;
 
 }
 
-nav div{
+nav div {
     margin-left: 20px;
 }
 
 
-.cmn span{
-    color:white;
+.cmn span {
+    color: white;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: .1px;
 
 }
-.cmn a{
+
+.cmn a {
     text-decoration: none;
 }
 
-nav{
+nav {
     position: fixed;
-    top : 0%;
-    width:100%;
+    top: 0%;
+    width: 100%;
 }
 
 /* -----------------------------Product Navbar ----------------------------- */
-.topProductNavbar{
-    height:150px;
+.topProductNavbar {
+    height: 150px;
     /* background-color: tomato; */
     display: flex;
     justify-content: center;
@@ -95,26 +95,38 @@ nav{
     border-bottom: 1px solid #ccc;
 }
 
-.topProductNavbar_Nav{
-    width:80px;
-    height : 112px;
+.topProductNavbar_Nav {
+    width: 80px;
+    height: 112px;
     margin-top: 50px;
-    
+    margin-left: 50px;
+
 }
 
 
-.topProductNavbar_Nav img{
-    width:64px;
-    height:64px;
+.topProductNavbar_Nav img {
+    width: 64px;
+    height: 64px;
 }
 
-.topProductNavbar_Nav p{
+.topProductNavbar_Nav p {
     font-weight: 500;
     font-size: 14px;
 }
 
-.topProductNavbar_Nav:hover p{
-    color :#2874f0;
-    cursor:pointer;
+.topProductNavbar_Nav:hover p {
+    color: #2874f0;
+    cursor: pointer;
 }
 
+
+.topProductNavbar_Nav>p {
+    width: 200px;
+    text-align: left;
+}
+
+.kJjFO0{
+    width: 100%;
+    height:100%;
+    opacity: 1;
+}
