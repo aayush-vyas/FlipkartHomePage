@@ -5,6 +5,9 @@
     margin: 0;
 
 }
+body{
+    overflow-x: hidden;
+}
 
 nav {
     background-color: #2874f0;
@@ -168,12 +171,13 @@ body {
     margin-right: auto;
     height: 280px;
     margin-top: 10px;
-    background: red;
+    background:white;
 }
 
 .bestOfferNav_item {
     width: 200px;
     height: 280px;
+    margin-right: 20px;
     background-color: white;
 }
 
@@ -206,10 +210,43 @@ body {
 
 
 .bestoffer_font .product_name {
-    font-size: medium;
+    font-size: smaller;
     font-weight: bolder;
 }
 
-.product_price {
-    font-size: large;
+.bestoffer_font .product_price {
+    font-size: small;
+    color:green;
 }
+
+.bestoffer_font .more_related_product{
+    font-size: x-small;
+}
+
+.bestoffer_font p{
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    margin:15px;
+    margin-bottom:3px;
+
+  }
+  
+  
+
+  .column img{
+    width:400px;
+  }
+
+  .card_container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 470px;
+    margin-top: 10px;
+    background:white;
+  }
+  
