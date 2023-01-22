@@ -161,8 +161,8 @@ body {
 }
 
 .bankOffer img {
-    width: 600px;
-    height: 70px;
+    width: 800px;
+    height: 90px;
 }
 
 .bestOfferNav_container {
@@ -254,6 +254,7 @@ body {
 .footer_bg{
     background-color: #172337;
     margin-top: 10px;
+
 }
 
 .footer_bg a{   
